@@ -1,0 +1,28 @@
+/* React PDF Styles */
+.react-pdf__Page {
+  margin-bottom: 10px;
+}
+
+.react-pdf__Page__textContent {
+  border: 1px solid #999;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  padding: 20px;
+}
+
+.react-pdf__Page__canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* Dark mode support */
+.dark .react-pdf__Page {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.dark .react-pdf__Page img {
+  filter: invert(1) hue-rotate(180deg);
+}
